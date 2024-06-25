@@ -47,7 +47,7 @@ span {
 button{
     height: 40px;
     margin-top: 40px;
-    background-color: firebrick;
+    background-color: #109010;
     border: 0;
     border-radius: 4px;
     color: #FFF;
@@ -73,7 +73,7 @@ button{
     margin-bottom: 8px;
 }
 
-.password2{
+.password2, #password-input{
     height: 70px;
     background-color: black;
     border: 1px solid gray;
@@ -106,4 +106,59 @@ button{
     bottom: 50px;
     visibility: visible;
     opacity: 1;
+
 }
+
+.requirements-list, li{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    color: tomato;
+    width: 480px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+
+
+}
+
+.box{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.requirements-list .fulfilled{
+    color: #3EB72B;
+}
+
+#submit-button:disabled{
+    background-color: darkgray;
+    cursor: not-allowed;
+}
+
+#password-input{
+    margin-top: 25px;
+    width: 480px;
+}
+
+button{
+    width: 480px;
+
+}
+
+.password-checker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    
+
+

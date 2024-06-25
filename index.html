@@ -21,10 +21,26 @@
         <button class="button" onclick="generatePassword()">Gerar Senha</button>
     </div>
     
-    <div class="password hide" onclick="">
+    <div class="password hide" onclick="copyPassword()">
         <span class="title">Sua Senha foi Gerada:</span>
         <span class="password2"></span>
         <span class="tooltip">Clique Na senha para Copiar. ☝🏻</span>
+    </div>
+
+    <div class="password-checker">
+        <div class="box">
+            <input type="password" id="password-input">
+
+            <button id="submit-button" disabled onclick="copyPassword()">Clique aqui</button>
+        </div>
+
+        <ul class="requirements-list">
+            <li id="uppercase-requirement"> Letra maiúscula</li>
+            <li id="lowercase-requirement"> Letra minuscula </li>
+            <li id="numbers-requirement"> Números</li>
+            <li id="symbols-requirement"> Simbolos</li>
+            <li id="length-requirement"> Tamanho mínimo de 8 caracteres</li>
+        </ul>
     </div>
 
 
