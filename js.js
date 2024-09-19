@@ -87,4 +87,3 @@ function checkPassword(){
 submitButton.addEventListener('click', function(){
     console.log('botão clicado!');
 })
-
